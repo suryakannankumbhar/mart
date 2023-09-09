@@ -1,0 +1,43 @@
+body {
+    background-color: #ff92e8;
+}
+
+.electronicsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.electronicsSubContainer {
+    max-width: 50%;
+    width: calc(45% - 10px);
+    margin: 20px 0px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4),
+        -5px -5px 15px rgba(0, 0, 0, 0.4);
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.electronicsCover {
+    max-width: 40%;
+    border: 5px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4),
+        -5px -5px 55px rgba(0, 0, 0, 0.4);
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.25s;
+}
+
+.electronicsCover:hover {
+    transform: scale(1.15);
+}

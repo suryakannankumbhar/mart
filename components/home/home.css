@@ -1,0 +1,27 @@
+body {
+    background-color: #ff92e8;
+}
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.neumorphic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4),
+        -5px -5px 55px rgba(0, 0, 0, 0.4);
+    font-family: 'Poppins', sans-serif;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+}
